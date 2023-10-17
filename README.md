@@ -1,34 +1,34 @@
 <h1 align="center" style="color: #ff5e84; font-weight: 700;"> Casa Criativa </h1>
 
-## 💻 Tela de Ideias
+## 💻 Ideas Screen
 
 <img src="telas/Screenshot_4.png" style="margin-bottom: 20px;">
 
-O Projeto Casa Criativa é um site para adicionar ideias para realizar em casa, cozinhar, assistir cursos, etc. A RocketSeat junto com a Potência Tech fizeram esse projeto e nos repassaram em forma de aulas, tive vários aprendizados em HTML, CSS, JS e Banco de dados.
+The Casa Criativa Project is a website to add ideas to carry out at home, cooking, attending courses, etc. RocketSeat together with Potência Tech did this project and passed it on to us in the form of classes, I learned a lot in HTML, CSS, JS and Database.
 
-## ✅ Como abrir o projeto?
-Siga esses passos para abrir o projeto no seu computador (é necessário ter NODE NPM):
+## ✅ How to open the project?
+Follow these steps to open the project on your computer (NODE NPM required):
 
-- Clone o repositório
+- Clone the repository
 ```
 git clone https://github.com/ericlbarreto/casa-criativa.git
 ```
-- Instale as dependências
+- Install dependencies
 ```
 npm install
 ```
-- Inicie o servidor
+- Start server
 ```
 npm run dev
 ```
-- Abra o site no seu navegador
+- Open the website in your browser
 ```
 localhost:3000
 ```
 
-- ⚠️ Meu próximo passo será aprender a dar deploy nesses projetos com back-end e banco de dados para facilitar o acesso.
+- ⚠️ My next step will be to learn how to deploy these projects with a back-end and database to facilitate access.
 
 ## 📚 New Learnings
-- Desenvolvi mais a lógica do back-end, receber requisições e enviar respostas, além da lógica geral do CSS e HTML.
-- Utilizei a biblioteca nunjucks que permite fatorar o código HTML, realizar laços de repetição e variáveis, além de minimizar a repetição de códigos em diferentes páginas, nos códigos ela é geralmente utilizada pela tag {%%}
-- Utilizei pela primeira vez um banco de dados (SQLITE3) para armazenar as ideias que o usuário cadastrar no site, armazenando dados como título, link da imagem, descrição... da ideia cadastrada.
+- I further developed the back-end logic, receiving requests and sending responses, in addition to the general CSS and HTML logic.
+- I used the nunjucks library which allows you to factor the HTML code, perform loops and variables, in addition to minimizing code repetition on different pages. In codes it is generally used by the {%%} tag
+- For the first time, I used a database (SQLITE3) to store the ideas that the user registered on the website, storing data such as title, image link, description... of the registered idea.
